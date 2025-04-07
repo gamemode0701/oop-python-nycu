@@ -18,7 +18,7 @@ for part_name in full_name:
         print(str(valid_name) + " : " + part_name)
         # 如果條件成立，直接印出原始的全名字串
         time.sleep(1)
-        # 每次迴圈結束後暫停 1 秒，讓輸出有間隔，便於觀察，若當前名字無效則不會暫停
+        # 每次迴圈結束後暫停 1 秒便於觀察，若當前名字無效則不會暫停
 print("total valid names: " + str(valid_name))
 # 印出總計有多少個名字符合條件
 print("the program has finished, thank you for using")
